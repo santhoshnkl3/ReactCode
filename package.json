@@ -1,0 +1,39 @@
+{
+  "homepage": "http://santhoshnkl3.github.io/ReactUpdated",
+  "name": "best",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-image": "^2.2.0",
+    "react-scripts": "3.1.2",
+    "styled-components": "^4.4.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}

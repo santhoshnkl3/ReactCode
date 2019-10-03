@@ -1,0 +1,67 @@
+.ListCard
+{
+    height: 394px;
+    border: 1px solid #CECECE;
+    background: #FFFFFF;
+    padding-top: 10px;
+    width: 35%;
+    overflow-y: scroll;
+
+
+}
+.ListCard ul{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+.ListCard li{
+    list-style: none;
+    margin-top: 10px;
+
+}
+.ListItem
+{
+    display: block;
+    text-decoration: none;
+    color: #464545;
+}
+.ListItem:focus  {
+    background:#EFEDED;
+}
+.ListImg
+{
+    vertical-align: middle;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+.ListCard::-webkit-scrollbar {
+    width: 5px;
+    height: 120px;
+	
+}
+.ListCard::-webkit-scrollbar-track {
+    background-color: rgb(255, 255, 255);
+	height: 120px;
+}
+.ListCard::-webkit-scrollbar-thumb {
+    background-color: #397FF1;
+    height: 120px;
+	
+}
+
+
+
+@media only screen and (max-width:767px){
+    .ListCard{
+        width: 100%;
+        height: 240px;
+        
+    }
+    .MoveButton{
+        margin-left: 10px;
+        margin-bottom: unset;
+        width: 100%;
+        padding: 10px 0px;
+    }
+  }
